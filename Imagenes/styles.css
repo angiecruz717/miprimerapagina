@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+    color: rgb(7, 7, 56);
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+/*ENCABEZADO*/
+header {
+    background-color: rgb(7, 7, 56);
+    width: 100%;
+    color: rgb(234, 234, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding: 20px;
+    
+    position: fixed;
+    top:40px;
+    
+    }
+
+ul.menu li {
+    list-style: none;
+}
+
+a:hover {
+    color: black;
+    background: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a:active {
+    color: rgb(7, 7, 56);
+    background: white;
+    font-size: 22px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: rgb(234, 234, 238);
+
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite
+}
+
+/*ACERCA DE MI*/
+h2 {
+    text-align: center;
+    background-color: rgb(24, 24, 53);
+    color: rgb(223, 223, 223);
+    margin: 0px;
+    padding: 5px;
+    border: 10px double rgb(223, 223, 223);
+    border-radius: 15px;
+    margin-top: 250px;
+}
+
+#informacion-personal .seccion-principal .parrafo-1 {
+    padding: 10px 10px;
+    line-height: 1.5;
+}
+
+.seccion-principal .parrafo-2 {
+    padding: 10px 10px 20px 10px;
+}
+
+main {
+    color: rgb(7, 7, 56);
+    font-size: 18px;
+    margin: 10px;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 0px  #b59a61 solid;
+}
+
+.perfil-img,
+.seccion-carrusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.img_profile {
+    margin-bottom: 12px;
+}
+
+section.seccion-carrusel img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid rgb(201, 201, 201);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.fotos {
+    padding: 15px 10px;
+    border: #b59a61 solid;
+    border-radius: 15px;
+    display: flex;
+    line-height: 1.5;
+
+}
+.img-columnas {
+    margin: 0 15px;
+    border-radius: 15px;
+
+}
+
+
+/*Habilidades tecnicas*/
+
+ul {
+    padding: 10px 10px 10px 30px;
+    margin: 10px;
+}
+
+ul li {
+    color: rgb(24, 24, 53);
+    font-size: 18px;
+    padding: 2px 0px 5px 5px;
+    list-style: square;
+
+}
+
+/*BOTONES*/
+.button {
+    background-color: rgb(24, 24, 53);
+    border: 10px double rgb(201, 201, 201);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 12px 0;
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.columnas {
+    margin: 0px 5px;
+    padding: 10px;
+    
+}
+
+.col1 {
+    float: right;
+    width: 50%;
+}
+
+.col2 {
+    float: left;
+    width: 50%;
+}
+
+.habilidades {
+    clear: both;
+    }
+
+
+footer {
+    background-color: rgb(7, 7, 56);
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0px 0px 0px;
+}
+
+nav ul a {
+    color: rgb(162, 162, 206)
+}
+
+div {
+    padding: 10px;
+    color: rgb(223, 223, 223);
+}
+
+/* Etiquetas para entradas marcadas */
+div,
+select {
+    margin: 0px;
+    color: rgb(7, 7, 56);
+}
+.texto-footer {
+    color: antiquewhite;
+}
+input:checked+label {
+    color: #b59a61;
+    font-size: 20px;
+}
+
+
+/*FUENTES*/
+.fuente-clara {
+    color: #f0ecec;
+}
+
+.fuente-oscura {
+    color: #22211f;
+}
+
+.fuente-acento {
+    color: #b59a61;
+}
+/* ------------- CSS General ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  /* ------------- Campos del Formulario ------------- */
+  
+  .form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  @media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"],
+    .form-row input[type="email"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+    .form-row textarea {
+      width: 250px;
+    }
+    .form-row button {
+      margin-left: 120px;
+  }
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  
+    .form-row button {
+      font-size: 16px;
+      font-weight: bold;
+    
+    
+      color: #ffffff;
+      background-color: #5995da;
+    
+    
+      border: none;
+      border-radius: 3px;
+    
+    
+      padding: 10px 40px;
+      cursor: pointer;
+    }
+    
+    
+    .form-row button:hover {
+      background-color: #76aeed;
+    }
+    
+    
+    .form-row button:active {
+      background-color: #407fc7;
+    }
+    
+    
+    /* ------------- Para Pantallas de más de 700px ------------- */
+    
+    
+  
